@@ -1,1 +1,31 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>WordMaster</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
 
+<div class="container">
+<h1>📚 WordMaster</h1>
+
+<input id="en" placeholder="English word">
+<input id="tr" placeholder="Türkçe anlam">
+<button onclick="addWord()">Kelime Ekle</button>
+
+<h2>📖 Kelimeler</h2>
+<div id="list"></div>
+
+<h2>🧠 Test</h2>
+<button onclick="startTest()">Test Başlat</button>
+<p id="question"></p>
+<input id="answer" placeholder="Cevabın">
+<button onclick="check()">Kontrol</button>
+<p id="result"></p>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
